@@ -16,7 +16,7 @@ body {
     max-width: 1070px;
     margin: 0 auto;
 }
-.header_flex, .about, .email, .footer_flex {
+.header_flex, .about, .email, .proposition_flex, .footer_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +64,7 @@ body {
     background: #e7430c;
     transition: 500ms;
 }
+/* section 1*/
 .about {
     margin: 104px auto 85px;
 }
@@ -99,8 +100,8 @@ body {
 .footer {
     padding: 53px 0;
 }
+/* section 2*/
 .email {
-    margin-top: 85px; 
     margin-bottom: 85px;
 }
 .email_text {
@@ -126,5 +127,90 @@ body {
     line-height: 22px;
     letter-spacing: -0.531474px;
     color: #000000;
-    
+}
+/* section 3*/
+.propositions_name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    height: 128px;
+    margin-bottom: 98px;
+    max-width: 504px;
+    margin-bottom: 110px;
+}
+.proposition_variant {
+    margin-bottom: 132px;
+}
+.proposition_item {
+    width: 330px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 34px 0 24px;
+}
+.proposition_item:hover {
+    transition: 500ms;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+.proposition_item:hover .proposition_name, .proposition_item:hover .proposition_price, .proposition_item:hover .option_li {
+    color: #FFFFFF;
+    transition: 500ms;
+}
+
+.proposition_name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+        
+}
+.proposition_price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+    margin: 22px 0 28px;
+   
+}
+.proposition_price_month {
+      font-size: 28px;
+}
+
+.option_li {
+    list-style: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.proposition_button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin-top: 36px;
+}
+.proposition_item:hover .proposition_button {
+    background: #9F3919;
+    color: white;
+    transition: 500ms;
 }

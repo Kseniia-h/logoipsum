@@ -9,9 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!--header section-->
         <header class="header">
             <div class="container header_flex">
                 <div>
@@ -51,11 +55,49 @@
             </div>
             <div>
                 <h3 class="email_text">Subscription index</h3>
-                <input class="input_email" type="email" name id value="Email">
-                <button class="button button_violet">Try</button>
+                <form action="">
+                    <input class="input_email" type="email" placeholder="Email">
+                    <button class="button button_violet">Try</button>
+                </form>
             </div>
         </section>
         <!--section 3-->
+        <section class="container proposition_variant">
+            <h2 class="propositions_name">Get the right plan for future</h2>
+            <div class="proposition_flex">
+                <div class="proposition_item">
+                    <p class="proposition_name">Starter</p>
+                    <h2 class="proposition_price">Free<span class="proposition_price_month"></span></h2>
+                    <ul class="options">
+                        <li class="option_li">1 Website</li>
+                        <li class="option_li">5 GB Hosting</li>
+                        <li class="option_li">Limited Support</li>
+                    </ul>
+                    <button class="proposition_button">Get Started</button>
+                </div>
+                <div class="proposition_item">
+                    <p class="proposition_name">Premium</p>
+                    <h2 class="proposition_price">$29<span class="proposition_price_month">/month</span></h2>
+                    <ul class="options">
+                        <li class="option_li">10 Website</li>
+                        <li class="option_li">15 GB Hosting</li>
+                        <li class="option_li">Premium Support</li>
+                    </ul>
+                    <button class="proposition_button">Get Started</button>
+                </div>
+                <div class="proposition_item">
+                    <p class="proposition_name">Enterprise</p>
+                    <h2 class="proposition_price">$49<span class="proposition_price_month">/month</span></h2>
+                    <ul class="options">
+                        <li class="option_li">Unlimited Website</li>
+                        <li class="option_li">50 GB Hosting</li>
+                        <li class="option_li">Premium Support</li>
+                    </ul>
+                    <button class="proposition_button">Get Started</button> 
+                </div>
+            </div>
+        </section>
+    <!--footer section-->
         <footer class="footer">
             <div class="container footer_flex">
                 <div>
@@ -69,7 +111,7 @@
                         <li class="nav_li"><a class="nav_link" href="#">Blog</a></li>
                     </ul>
                 </nav>
-            </div>
+            </div>   
         </footer>
 </body>
 </html>
